@@ -22,6 +22,9 @@ body{
     top: -30px;
     margin-left: 50px;
 }
+
+
+/*Right Side search section*/
 .searcharea{
     position: relative;
     right: 90px;
@@ -55,6 +58,11 @@ body{
     letter-spacing: 2px;
     font-family:fantasy
 }
+
+
+
+
+/*summer cullection Heading & image*/
 .section1{
     position: absolute;
     top: 20%;
@@ -67,8 +75,6 @@ body{
     width: 800px;
 }
 
-
-/*summer cullection Heading*/
 .section1button{
     position: absolute;
     top: 40%;
@@ -110,7 +116,7 @@ span{
 }
 
 
-/*Left Side Face,LinkedIn etc Button*/
+/*Left Side Facebook,LinkedIn etc Button*/
 .iconarea{
     position: fixed;
     left: 30px;
@@ -119,7 +125,7 @@ span{
     height: 300px;
     width: 90px;
     background-color: rgb(255, 255, 255);
-    border-radius: 30px;
+    border-radius: 50px;
     box-shadow: 5px 5px 30px rgb(213, 182, 182);
 }
 .iconarea a{
@@ -322,4 +328,130 @@ footer{
     text-align: center;
     font-size: 25px;
     padding: 10px 0px;
+}
+
+
+
+
+/*Mobile View*/
+@media(max-width:768px){
+    .searcharea{
+        position: relative;
+        margin-left: -930px;
+    }
+    .logo{
+        margin-left: -50px; }
+.iconarea{
+        height: 215px;
+        width: 35px;
+        font-size: 15px;
+        margin-left: -15px;
+        margin-top: -40px;}
+    .iconarea a{
+        margin-left: -18px;
+    }
+    .section1 img{
+        height: 200px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .section1button h1, h2{
+        height: 50px;
+        width: 50px;
+        font-size: 10px;}
+    .section1button h1{
+        letter-spacing: 2px;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    .section1button h2{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: -65px;
+    }
+    .btn1{
+        height: 25px;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: -50px;
+    }
+    .productsection{
+        height: 400px;
+        width: 410px;
+        left: 20px;
+        font-size: 10px;
+        margin-top: -220px;
+    }
+    .productsection h3{font-size: 20px}
+    .productsection img{
+        height: 65px;
+        width: 65px;
+        margin-top: -20px;
+    }
+    .productsection .buybtn{
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        margin-left: -77px;
+    }
+    .hh{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: -100px;}
+    .hhh{
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: -100px; 
+        height: 10px;
+        width: 220px;
+    }
+    .about p{
+        font-size: 10px;
+        margin-top: 50px;
+        margin-left: -100px;
+        margin-top: 80px;
+        height: 10px;
+        width: 200px;
+    }
+    .about img{
+        height: 300px;
+        width: 250px;
+        margin-top: 240px;
+        margin-left: -460px;
+    }
+    .Notification h1{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .Notificationinput{
+        height: 30px;
+        width: 300px;
+        margin-left: 90px;
+        margin-top: -30px;
+        box-shadow: 3px 4px 20px rgb(216, 213, 207),-3px -3px 20px rgb(216, 213, 207);
+    }
+    .Notification input{
+        height: 25px;
+        width: 280px;
+        margin-left: 45px;
+        margin-top: -10px;
+    }
+    .Notificationinput button{
+        height: 22px;
+        width: 50px;
+        right: 211px;
+        margin-top: 31px;
+        font-size: 13px;
+        
+    }
+    footer{
+        margin-top: -15px;
+        font-size: 15px;
+        height: 30px;
+    }
+    footer p{
+        margin-top: 4px;
+    }
 }
